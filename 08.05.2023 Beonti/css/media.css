@@ -1,0 +1,522 @@
+@media only screen and (max-width:1228px) {
+    .nav-logo {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav>button {
+        font-size: 31px;
+        background-color: #fff;
+        display: block;
+        padding-top: 4px;
+        border: none;
+    }
+
+    .nav-logo ul a {
+        color: #fff;
+        padding: 0 14px;
+
+    }
+
+    .open {
+        margin-left: -21% !important;
+    }
+
+    #nav-about {
+        display: grid;
+        position: absolute;
+        background-color: #281A4B;
+        width: 21%;
+        height: 240%;
+        border-radius: 9px;
+        top: 101%;
+        left: 0;
+        margin-left: 0%;
+        z-index: -1;
+        transition: .6s;
+    }
+
+    #nav-about a {
+        padding: 0 1em;
+        color: #fff;
+        font-size: 16px;
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .nav-login-icon {
+        font-size: 31px;
+        padding-top: 37px;
+        display: flex;
+    }
+
+    .nav-login-icon img {
+        width: 26px;
+        margin-left: 11px;
+    }
+
+    .nav-login a {
+        display: none;
+    }
+
+    .nav-login-flag {
+        display: flex;
+    }
+
+    .navBanner-left h2 {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .navBanner-left {
+        font-size: 20%;
+        margin-top: 5em;
+        text-align: center;
+    }
+
+    .navBanner-img img {
+        width: 60%;
+        box-shadow: -23px 24px #281A4B;
+    }
+
+    .navBanner-right-1 {
+        background-color: #281A4B;
+        width: 4%;
+        height: 2.5em;
+        position: absolute;
+        top: 36%;
+        right: 46%;
+        border-radius: 10px;
+    }
+
+    .navBanner-right-1 i {
+        font-size: 2em;
+        color: white;
+        padding: 4px 0 0 9px;
+    }
+
+    .navBanner-right-2 {
+        background-color: #ffffff;
+        width: 4%;
+        height: 2.5em;
+        position: absolute;
+        top: 36%;
+        left: 81.2%;
+        box-shadow: -5px -5px #281A4B;
+        border-radius: 10px;
+    }
+
+    .navBanner-right-2 i {
+        font-size: 2em;
+        color: #281A4B;
+        padding: 4px 0 0 9px;
+    }
+
+    .navBanner-left p {
+        font-size: 13px;
+    }
+
+    .featuresNoborder {
+        width: 40%;
+        margin-bottom: 5em;
+    }
+
+    .features-admin-panel-text {
+        padding: 0.5em 1em 0em 1.3em;
+    }
+
+    .features-admin-panel-text h2 {
+        /* padding-bottom: 8%; */
+        font-size: 16px;
+    }
+
+    .features-admin-panel-textt {
+        padding: 0 2em 0 0;
+    }
+
+    .about-text {
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 75%;
+        color: #fff;
+        padding: 0px 16% 0 5%;
+        position: absolute;
+        z-index: 9999;
+        top: 155%;
+        left: 32%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .navBanner {
+        padding-bottom: 120%;
+        background-color: #F8F8FA;
+    }
+
+    .navBanner-left h2 {
+        position: absolute;
+        top: -74px;
+    }
+
+    .navBanner-img img {
+        top: 105px;
+        position: absolute;
+        width: 156%;
+        right: 32%;
+    }
+
+    .navBanner-left p {
+        position: absolute;
+        top: 62%;
+        padding: 28px 10%;
+        font-size: 14px;
+    }
+
+
+    .navBanner-left a {
+        position: absolute;
+        top: 84%;
+        left: 34%;
+        margin-top: 5%;
+    }
+
+    .navBanner-right-1 {
+        background-color: #281A4B;
+        width: 24%;
+        height: 2.5em;
+        position: absolute;
+        top: 172%;
+        right: 212%;
+        border-radius: 10px;
+    }
+
+    .navBanner-right-2 {
+        background-color: #ffffff;
+        width: 24%;
+        height: 2.5em;
+        position: absolute;
+        top: 172%;
+        left: 80.2%;
+        box-shadow: -5px -5px #281A4B;
+        border-radius: 10px;
+    }
+
+    .nav-bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 0 1em 0;
+        overflow: auto;
+    }
+
+    .nav-bottomn img {
+        width: 100%;
+        margin-right: 108px;
+    }
+
+    .nav-bottomn {
+        width: 100%;
+    }
+
+    .features {
+        display: block;
+    }
+
+    .featuresNoborder {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    .features-email {
+        width: 100%;
+        border: 2px solid #E8E6EB;
+        border-radius: 3px;
+        height: 9em;
+        margin-bottom: 5%;
+    }
+
+    .features2 {
+        display: block;
+        margin-bottom: 28%;
+    }
+
+    .features-admin-panel {
+        width: 100%;
+        border: 2px solid #E8E6EB;
+        border-radius: 3px;
+        margin-right: 6%;
+        margin-bottom: 5%;
+        height: 9em;
+    }
+
+    .about {
+        width: 100%;
+        background-color: #281A4B;
+        transform: skewY(-18deg);
+        height: 28em
+    }
+
+    .about-img {
+        width: 38%;
+        position: absolute;
+        z-index: 5;
+        margin-left: 8%;
+        top: 258%;
+    }
+
+    .about-text {
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 88%;
+        color: #fff;
+        padding: 0px 4% 0 5%;
+        position: absolute;
+        z-index: 9999;
+        top: 286%;
+        left: 3%;
+    }
+
+    .aboutText-none {
+        display: none;
+    }
+
+    .users {
+        width: 95%;
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        margin-top: 12%;
+        margin-left: 12%;
+    }
+
+
+    .users-right-2 {
+        /* overflow: auto; */
+        display: none;
+    }
+
+    .users-top {
+        margin: 45% 0 8% 0;
+    }
+
+    .users-top h2 {
+        font-size: 15px;
+    }
+
+    .users-img {
+        width: 72%;
+    }
+
+    .users-img img {
+        width: 100%;
+        position: relative;
+    }
+
+    .users-img-text {
+        font-size: 95%;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 53%;
+        left: 15%;
+        border: 1px solid #c5baba;
+        border-radius: 6px;
+    }
+
+    .pricing-bottom {
+        overflow: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .pricing-top {
+        margin-top: 38%;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    .pricing-left {
+        border: 1px solid #E2E2E2;
+        width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+        height: 100%;
+    }
+
+    .pricing-left a {
+        background-color: #281A4B;
+        color: #fff;
+        font-size: 22px;
+        padding: 12px 39px;
+        margin-left: 19%;
+        margin-bottom: 112%;
+        border-radius: 11px;
+    }
+
+    .pricing-left-1 p {
+        font-size: 16px;
+    }
+
+    .pricing-left ul {
+        margin-bottom: 25%;
+        padding-top: 7%;
+    }
+
+    .pricing-left a {
+        background-color: #281A4B;
+        color: #fff;
+        font-size: 19px;
+        padding: 9px 17px;
+        margin-left: 26%;
+        border-radius: 11px;
+    }
+
+    .pricing-midlle {
+        background-color: #281A4B;
+        border: 1px solid #E2E2E2;
+        width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+        height: 100%;
+        margin: 0 6px;
+    }
+
+    .pricing-midlle ul {
+        font-size: 72%;
+        color: #fff;
+        margin-bottom: 4%;
+        padding-top: 0;
+    }
+
+    .pricing-midlle-1 p {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .pricing-midlle a {
+        background-color: #ffffff;
+        color: #281A4B;
+        font-size: 19px;
+        padding: 9px 17px;
+        margin-left: 26%;
+        border-radius: 11px;
+    }
+
+
+    .pricing-right {
+        border: 1px solid #E2E2E2;
+        width: 100%;
+        padding: 20px;
+        border-radius: 12px;
+        height: 100%;
+    }
+
+    .pricing-right-1 p {
+        font-size: 16px;
+    }
+
+    .pricing-right a {
+        background-color: #281A4B;
+        color: #fff;
+        font-size: 19px;
+        padding: 9px 17px;
+        margin-left: 29%;
+        border-radius: 11px;
+    }
+
+    .pricing-right ul {
+        margin-bottom: -6%;
+        font-size: 41%;
+    }
+
+
+    .questions-bot {
+        display: block;
+    }
+
+    .questions-bottom {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #000;
+        padding: 0 0;
+    }
+
+    .questions-bottom li {
+        padding: 20px 16px;
+        background-color: #fff;
+        margin-bottom: 5%;
+    }
+
+    .point {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        background-color: #281A4B;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 48%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+    }
+
+    .questions-bottom2 {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .contact{
+        display: none;
+    }
+    .contact-mobil{
+        display: block;
+    }
+
+    .footer {
+        font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        margin-top: 4%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-left {
+        width: 50%;
+    }
+
+    .footer-right1 {
+        width: 34%;
+        margin-top: 25%;
+    }
+
+    .footer-right2 {
+        width: 50%;
+        margin-top: 26%;
+    }
+
+    .footer-right3 {
+        width: 50%;
+        margin-top: 25%;
+        padding-left: 14%;
+    }
+
+    .footer-right4 {
+        margin-top: 13%;
+    }
+
+    .professional-top h3 {
+        padding-top: 29%;
+    }
+
+    .professional-img {
+        width: 47%;
+        padding: 1px 1px;
+        height: 135px;
+    }
+
+    .professional-img img {
+        width: 105%;
+    }
+
+    .professional-img .p-text {
+        font-size: 11px;
+        width: 31%;
+    }
+
+    .login-login {
+        padding-top: 26%;
+
+    }
+}
